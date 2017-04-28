@@ -25,19 +25,19 @@ Aplicación Java usando Selenium con HTMLUtil y PhantomJS
 
 3. Correr 
 
-en terminal
+	en terminal
+	
+	```
+	mvn exec:java -Dexec.mainClass="htmldriver.HtmlUnitTest"
+	```
+	
+	o
+	
+	```
+	mvn exec:java -Dexec.mainClass="htmldriver.PhantomJSTest"
+	```
 
-```
-mvn exec:java -Dexec.mainClass="htmldriver.HtmlUtilTest"
-```
-
-o
-
-```
-mvn exec:java -Dexec.mainClass="htmldriver.PhantomJSTest"
-```
-
-#![](doc/output-cmd.png)
+![](doc/output.png)
 
 
 ## Referencias
