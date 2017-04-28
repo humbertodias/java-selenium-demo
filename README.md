@@ -5,9 +5,9 @@ Aplicación Java usando Selenium con HTMLUtil y PhantomJS
 
 ## Prerequisitos
 
-1. Maven 3+
-2. Java 8+
-3. PhantonJS
+1. [Maven](https://maven.apache.org/download.cgi) 3+
+2. [Java](http://www.oracle.com/technetwork/pt/java/javase/downloads/index.html) 8+
+3. [PhantonJS](http://phantomjs.org/download.html) 2+
 
 ## Como correr
 
