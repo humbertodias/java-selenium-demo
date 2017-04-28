@@ -8,9 +8,9 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 
 public class HtmlUnitTest {
 
-    public static void main(String[] args) {
-        // Creating a new instance of the HTML unit driver
+    public static void main(String ... args) {
 
+        // Creating a new instance of the HTML unit driver
         WebDriver driver = new HtmlUnitDriver();
 
         // Navigate to Google
@@ -30,6 +30,7 @@ public class HtmlUnitTest {
         System.out.println("Page title is: " + driver.getTitle());
 
         driver.quit();
+
     }
 
 }
