@@ -28,13 +28,13 @@ Aplicación Java usando Selenium con HTMLUtil y PhantomJS
 	en terminal
 	
 	```
-	mvn exec:java -Dexec.mainClass="htmldriver.HtmlUnitTest"
+	mvn compile exec:java -Dexec.mainClass="htmldriver.HtmlUnitTest"
 	```
 	
 	o
 	
 	```
-	mvn exec:java -Dexec.mainClass="htmldriver.PhantomJSTest"
+	mvn compile exec:java -Dexec.mainClass="htmldriver.PhantomJSTest"
 	```
 
 ![](doc/output.png)
